@@ -1,0 +1,23 @@
+
+name: Publish to Github Pages
+
+on:
+    push:
+        branches:
+            main
+
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out
+              uses: actions/checkout@v1
+
+            - name: Install emacs
+              run: sudo apt install emacs-nox --yes
+
+            - name: Build site
+              uses: JamesIves/github-pages-deploy-action@4.1.4
+              with:
+                branch: gh-pages
+                folder: public
