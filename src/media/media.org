@@ -1,0 +1,11 @@
+#+title: Reading List
+
+| Title                     | Genre       | My Rating |
+|---------------------------+-------------+-----------|
+| Chip War                  | Non-Fiction | 10/10     |
+| The Soul of a New Machine | Non-Fiction | 10/10     |
+| Streetcar Seshjack        | Sci-Fi      | 10/10     |
+| The Mountain in the Sea   | Sci-Fi      | 10/10     |
+| The Three Body Problem    | Sci-Fi      | 10/10     |
+
+# TODO maybe a marker to indicate series, in progress, etc

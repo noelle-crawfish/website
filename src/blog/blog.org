@@ -1,0 +1,7 @@
+#+title: Blog
+#+subtitle: /"insert mildly interesting quote here"/ -- ur mom
+
+Hi, my name's Noelle. I'm a PhD student at the University of Illinois Urbana-Champaign studying computer architecture. In my free time, I enjoy ..... and pretending I'm much more important than I actually am.
+
+- If only I had some blog posts...
+- Coming soon.

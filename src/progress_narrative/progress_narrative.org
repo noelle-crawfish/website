@@ -1,0 +1,57 @@
+#+title: Progress Narrative
+#+subtitle: /"God isn't compatible with machinery and scientific medicine and universal happiness. You must make your choice. Our civilization has chosen machinery and medicine and happiness.”/ -- Aldus Huxley, Brave New World
+
+I'm a huge fan of science fiction for many reasons:
+
+To me, science fiction has always been a vessel through which to fuel my fascination with progress by giving me ideas to project onto the real world.
+Yet in many novels, the progress of society is both a blessing and a curse, with authors warning of the challenges a technologically advanced future will bring.
+
+In high school I read Aldus Huxley's /Brave New World/, the story of a futuristic world in which ... reduced to a hedonistic society optimized for pleasure.
+- uses sex for shock value, but overexadgerates how much ppl like sex -> instead imagine a world in which you pursue your intersts all the time
+- this is basically my life as a phd student (flexble schedule, work on whatever)
+  I'm fortunate to be in a position where my life centers only around things I want to do. I'm currently a PhD student at the University of Illinois studying computer architecute...
+
+People fear the unknown, and therefore society fears progress, even when science has unlimited potential to improve our quality of life.
+
+- look at the blueprint guy
+- what I'm going to do / how to follow along
+
+  Despite not being an eccentric multi-millionaire, I'd like to .... using only technology available to the average person.
+  This page describes the statistics I collect and some relevant goals I'm hoping this project can help me accomplish.
+
+* Health
+** Excercise
+I am currently training in MMA, with they hope of making my amateur debut within the next few years. I've trained Brazilian Jiu-Jitsu for a few years now, and I've recently added Muay-Thai, wrestling and MMA specific training to my schedule. I typically spend ~3 hours a day at the MMA gym (5:30PM-8:30PM).
+Outside of MMA I try to run and lift regularly to supplement my training (though I am not as consistent with these as I'd like to be).
+I record as many workouts as I can using my Garmin Instinct watch and HR strap, but I cannot wear these devices for grappeling workouts due to the safety hazard they pose for training partners. I also track mat-time using Toggl Track and journal my reflections after each practice.
+
+*GOALS:* Improve as an MMA fighter, gain muscle
+** Nutrition
+- mention soylent green, kuru
+My diet is already quite optimized, but the number of calories per day varies, so I track my eating with cronometer.
+I get the first 1600-2000 calories of my daily nutrition from Huel, a meal replacement drink designed to provide users with all required nutrients and macros.
+Since I need > 2000 calories daily, I use rice to cheaply increase my intake. I also drink gatorade after hard workouts.
+For some fun and variety, I try to buy some fun snacks every week, with my favorites being vegan cheez-its, vegan jerky, and hummus.
+
+*GOALS:* Reduce snacking, consume a clean high-protien diet
+** Health Stats
+From my Garmin, I can collect a large number of health and wellness related statistics including daily activity levels, resting heart rate, sleep data, etc. I also weigh myself daily and plan to get semi-regular blood tests done to ensure my nutrition plan is working.
+
+* Time
+** Research
+As a PhD student, my main commitment is my research and productivity.
+I spend ~12 hours per weekday in the office and work weekends as-needed based on deadlines and work left unfinished during the week. I track all hours worked using Toggl Track and split the tracking into blocks representing fine-grained tasks.
+By the end of this year, I am hoping to submit my first first-author paper to a major conference. I'm also aiming for at least one more co-authored paper submission.
+** Leisure
+In my (somewhat limited) remaining time I enjoy rock climbing, practicing close-up magic, reading, and hanging out with friends.
+- hours of scheduled vs unscheduled leisure time
+-
+** Social
+For a long time, social interactions were something I struggled with a lot: talking to new people was hard, and determining who to consider a friend was even harder. Thankfully I was been able to improve my social skills dramatically over the course of my undergraduate career, but I still find there are certain things I struggle with. One major pain point recently has been that I will consistently put myself in social situations I know will make me /less/ happy due to a fear of "going-backwards" or upsetting my peers.
+Therefore, I've started tracking who I interact with daily, and the type of interaction we have (e.g. casual hang-out, party, scheduled activity). I can examine this data alongside my happiness tracking to give myself an optimized strategy for deciding when I should engage in social activities.
+* Money
+I live in a low cost of living area making a salary of $2884/month ($34608/year) with very good job security. I track my spending meticulously using YNAB.
+My current financial goals involve contributing to stock portfolio and savings account while putting aside some money for annual vacations.
+
+* Happiness
+Since my overall goal in life is simply to be happy, I use the Daylio app to track my mood and use the data to understand how my decisions are impactful to this end.

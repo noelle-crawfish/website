@@ -1,0 +1,7 @@
+#+title: Noelle G. Crawford
+# #+subtitle: /"For a moment, nothing happened. Then, after a second or so, nothing continued to happen."/ -- D. Adams, The Hitchiker's Guide to the Galaxy
+#+subtitle: /"The ships hung in the sky much in the same way that bricks don't."/ -- D. Adams, The Hitchiker's Guide to the Galaxy
+
+* [[file:blog/blog.org][Blog]]
+* [[file:progress_narrative/progress_narrative.org][Progress Narrative]]
+* [[file:media/media.org][Reading List]]
