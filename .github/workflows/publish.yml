@@ -21,3 +21,6 @@ jobs:
               with:
                 branch: gh-pages
                 folder: public
+
+permissions:
+    contents: write
