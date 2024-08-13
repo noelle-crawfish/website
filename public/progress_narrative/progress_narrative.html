@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-08-13 Tue 10:30 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Progress Narrative</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Progress Narrative
+<br />
+<span class="subtitle"><i>"God isn't compatible with machinery and scientific medicine and universal happiness. You must make your choice. Our civilization has chosen machinery and medicine and happiness.”</i> &#x2013; Aldus Huxley, Brave New World</span>
+</h1>
+<p>
+I'm a huge fan of science fiction for many reasons:
+</p>
+
+<p>
+To me, science fiction has always been a vessel through which to fuel my fascination with progress by giving me ideas to project onto the real world.
+Yet in many novels, the progress of society is both a blessing and a curse, with authors warning of the challenges a technologically advanced future will bring.
+</p>
+
+<p>
+In high school I read Aldus Huxley's <i>Brave New World</i>, the story of a futuristic world in which &#x2026; reduced to a hedonistic society optimized for pleasure.
+</p>
+<ul class="org-ul">
+<li>uses sex for shock value, but overexadgerates how much ppl like sex -&gt; instead imagine a world in which you pursue your intersts all the time</li>
+<li>this is basically my life as a phd student (flexble schedule, work on whatever)
+I'm fortunate to be in a position where my life centers only around things I want to do. I'm currently a PhD student at the University of Illinois studying computer architecute&#x2026;</li>
+</ul>
+
+<p>
+People fear the unknown, and therefore society fears progress, even when science has unlimited potential to improve our quality of life.
+</p>
+
+<ul class="org-ul">
+<li>look at the blueprint guy</li>
+<li><p>
+what I'm going to do / how to follow along
+</p>
+
+<p>
+Despite not being an eccentric multi-millionaire, I'd like to &#x2026;. using only technology available to the average person.
+This page describes the statistics I collect and some relevant goals I'm hoping this project can help me accomplish.
+</p></li>
+</ul>
+
+<div id="outline-container-org5bb09d7" class="outline-2">
+<h2 id="org5bb09d7">Health</h2>
+<div class="outline-text-2" id="text-org5bb09d7">
+</div>
+<div id="outline-container-org4330037" class="outline-3">
+<h3 id="org4330037">Excercise</h3>
+<div class="outline-text-3" id="text-org4330037">
+<p>
+I am currently training in MMA, with they hope of making my amateur debut within the next few years. I've trained Brazilian Jiu-Jitsu for a few years now, and I've recently added Muay-Thai, wrestling and MMA specific training to my schedule. I typically spend ~3 hours a day at the MMA gym (5:30PM-8:30PM).
+Outside of MMA I try to run and lift regularly to supplement my training (though I am not as consistent with these as I'd like to be).
+I record as many workouts as I can using my Garmin Instinct watch and HR strap, but I cannot wear these devices for grappeling workouts due to the safety hazard they pose for training partners. I also track mat-time using Toggl Track and journal my reflections after each practice.
+</p>
+
+<p>
+<b>GOALS:</b> Improve as an MMA fighter, gain muscle
+</p>
+</div>
+</div>
+<div id="outline-container-org52cb984" class="outline-3">
+<h3 id="org52cb984">Nutrition</h3>
+<div class="outline-text-3" id="text-org52cb984">
+<ul class="org-ul">
+<li>mention soylent green, kuru</li>
+</ul>
+<p>
+My diet is already quite optimized, but the number of calories per day varies, so I track my eating with cronometer.
+I get the first 1600-2000 calories of my daily nutrition from Huel, a meal replacement drink designed to provide users with all required nutrients and macros.
+Since I need &gt; 2000 calories daily, I use rice to cheaply increase my intake. I also drink gatorade after hard workouts.
+For some fun and variety, I try to buy some fun snacks every week, with my favorites being vegan cheez-its, vegan jerky, and hummus.
+</p>
+
+<p>
+<b>GOALS:</b> Reduce snacking, consume a clean high-protien diet
+</p>
+</div>
+</div>
+<div id="outline-container-org4a7ddc9" class="outline-3">
+<h3 id="org4a7ddc9">Health Stats</h3>
+<div class="outline-text-3" id="text-org4a7ddc9">
+<p>
+From my Garmin, I can collect a large number of health and wellness related statistics including daily activity levels, resting heart rate, sleep data, etc. I also weigh myself daily and plan to get semi-regular blood tests done to ensure my nutrition plan is working.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf71c0a8" class="outline-2">
+<h2 id="orgf71c0a8">Time</h2>
+<div class="outline-text-2" id="text-orgf71c0a8">
+</div>
+<div id="outline-container-orgd47c8a4" class="outline-3">
+<h3 id="orgd47c8a4">Research</h3>
+<div class="outline-text-3" id="text-orgd47c8a4">
+<p>
+As a PhD student, my main commitment is my research and productivity.
+I spend ~12 hours per weekday in the office and work weekends as-needed based on deadlines and work left unfinished during the week. I track all hours worked using Toggl Track and split the tracking into blocks representing fine-grained tasks.
+By the end of this year, I am hoping to submit my first first-author paper to a major conference. I'm also aiming for at least one more co-authored paper submission.
+</p>
+</div>
+</div>
+<div id="outline-container-org2fb1efd" class="outline-3">
+<h3 id="org2fb1efd">Leisure</h3>
+<div class="outline-text-3" id="text-org2fb1efd">
+<p>
+In my (somewhat limited) remaining time I enjoy rock climbing, practicing close-up magic, reading, and hanging out with friends.
+</p>
+<ul class="org-ul">
+<li>hours of scheduled vs unscheduled leisure time</li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org388c8b5" class="outline-3">
+<h3 id="org388c8b5">Social</h3>
+<div class="outline-text-3" id="text-org388c8b5">
+<p>
+For a long time, social interactions were something I struggled with a lot: talking to new people was hard, and determining who to consider a friend was even harder. Thankfully I was been able to improve my social skills dramatically over the course of my undergraduate career, but I still find there are certain things I struggle with. One major pain point recently has been that I will consistently put myself in social situations I know will make me <i>less</i> happy due to a fear of "going-backwards" or upsetting my peers.
+Therefore, I've started tracking who I interact with daily, and the type of interaction we have (e.g. casual hang-out, party, scheduled activity). I can examine this data alongside my happiness tracking to give myself an optimized strategy for deciding when I should engage in social activities.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7ae569a" class="outline-2">
+<h2 id="org7ae569a">Money</h2>
+<div class="outline-text-2" id="text-org7ae569a">
+<p>
+I live in a low cost of living area making a salary of $2884/month ($34608/year) with very good job security. I track my spending meticulously using YNAB.
+My current financial goals involve contributing to stock portfolio and savings account while putting aside some money for annual vacations.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7b786c8" class="outline-2">
+<h2 id="org7b786c8">Happiness</h2>
+<div class="outline-text-2" id="text-org7b786c8">
+<p>
+Since my overall goal in life is simply to be happy, I use the Daylio app to track my mood and use the data to understand how my decisions are impactful to this end.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2024-08-13 Tue 10:30</p>
+</div>
+</body>
+</html>
