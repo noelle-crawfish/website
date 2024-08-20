@@ -5,3 +5,4 @@
 * [[file:blog/blog.org][Blog]]
 * [[file:progress_narrative/progress_narrative.org][Progress Narrative]]
 * [[file:media/media.org][Reading List]]
+** [[file:certification/certification.org][Certificate of Coolness]]

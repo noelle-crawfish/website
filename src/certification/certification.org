@@ -1,0 +1,7 @@
+#+title: Certificate of Coolness
+#+subtitle: Presented to a cool person
+
+This page certifies /Noelle G. Crawford/ to be a really cool person.
+
+Signature from coolness appointer:
+[[http://ematth.dev][Evan Matthews]]
